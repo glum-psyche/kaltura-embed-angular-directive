@@ -1,0 +1,11 @@
+<script type='text/javascript' src="http://code.angularjs.org/1.1.0/angular.min.js"></script>
+<!-- Include the Kaltura HTML5 library -->
+<script type='text/javascript' src="http://player.kaltura.com/mwEmbedLoader.php"></script>
+
+<div ng-app="jsf">
+     <h2>Play page</h2>
+
+    <div ng-controller="VideoCtrl">
+        <div id="playerContainer" kaltura-player kaltura-options="config" style="width: 400px; height: 500px;"></div>
+    </div>
+</div>
